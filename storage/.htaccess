@@ -1,0 +1,3 @@
+# Nobody can open these files by typing a URL.
+# PHP can still read them internally.
+Require all denied

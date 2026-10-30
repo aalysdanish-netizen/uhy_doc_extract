@@ -1,0 +1,35 @@
+# Environment and credentials
+.env
+.env.*
+!.env.example
+
+# Dependencies
+/vendor/
+/node_modules/
+
+# IDE private settings
+/nbproject/private/
+/.idea/
+/.vscode/
+
+# Uploaded documents and user data
+/storage/avatars/*
+!/storage/avatars/.htaccess
+
+/storage/documents/*
+!/storage/documents/.gitkeep
+
+/storage/chat/*
+!/storage/chat/.gitkeep
+
+/storage/temp/*
+!/storage/temp/.gitkeep
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
